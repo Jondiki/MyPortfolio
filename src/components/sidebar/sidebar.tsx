@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { text } from "stream/consumers";
 
 const Sidebar = () => {
   const [open, setOpen] = useState(false);
@@ -24,7 +25,7 @@ const Sidebar = () => {
       <div className="aside-inner">
         <div className="logo">
           <Link href="/" onClick={handleClose}>
-            Logo
+            JD
           </Link>
         </div>
         <ul className="nav">
@@ -72,10 +73,11 @@ const Sidebar = () => {
           </li>
         </ul>
         <div className="copyright">
-          Created  By{" "}
-          <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            jon_Diki
+          © 2024&nbsp;
+          <a href="http://alsiam.com" target="_blank">
+            Jonathan D. &nbsp;
           </a>
+          All rights reserved, Hosting with Vercel <br />
         </div>
       </div>
     </aside>
