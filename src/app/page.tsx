@@ -22,10 +22,7 @@ export default async function Home() {
               <a href="https://instagram.com/" target="_blank">
                 <i className="fa fa-instagram" />
               </a>
-              <a
-                href="https://www.linkedin.com/in/jonathan-diki/"
-                target="_blank"
-              >
+              <a href="https://www.linkedin.com/in/jonathan-diki/" target="_blank">
                 <i className="fa fa-linkedin" />
               </a>
             </div>
