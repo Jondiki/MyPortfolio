@@ -10,19 +10,22 @@ export default async function Home() {
             <h1>Jonathan Dikizeyiko</h1>
             <p>Your expertise</p>
             <div className="social-links">
-              <a href="https://twitter.com/" target="_blank">
+              <a href="https://x.com/Jon_D75" target="_blank">
                 <i className="fa fa-twitter" />
               </a>
               <a href="https://facebook.com/" target="_blank">
                 <i className="fa fa-facebook" />
               </a>
-              <a href="https://github.com/" target="_blank">
+              <a href="https://github.com/Dkz001" target="_blank">
                 <i className="fa fa-github" />
               </a>
               <a href="https://instagram.com/" target="_blank">
                 <i className="fa fa-instagram" />
               </a>
-              <a href="https://linkedin.com/in/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/jonathan-diki/"
+                target="_blank"
+              >
                 <i className="fa fa-linkedin" />
               </a>
             </div>
