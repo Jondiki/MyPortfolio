@@ -15,7 +15,7 @@ const Portfolio: NextPage = () => {
               <button type="button" className="active" data-filter="all">
                 All
               </button>
-              <button type="button" data-filter="graphics-design">
+              {/* <button type="button" data-filter="graphics-design">
                 Graphics Design
               </button>
               <button type="button" data-filter="web-design">
@@ -23,7 +23,7 @@ const Portfolio: NextPage = () => {
               </button>
               <button type="button" data-filter="wordpress">
                 Wordpress
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="row">
@@ -32,6 +32,9 @@ const Portfolio: NextPage = () => {
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
                   <img src="/imgs/portfolio/1.jpg" alt="portfolio" />
+                  <a href="https://x.com/Jon_D75" target="_blank">
+                
+                  </a>
                 </div>
                 <div className="portfolio-info">
                   <h4>Web Design</h4>

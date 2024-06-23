@@ -7,7 +7,7 @@ const Service: NextPage = () => {
   <div className="container">
     <div className="row">
       <div className="section-title padd-15">
-        <h2>Our Services</h2>
+        <h2>My Services</h2>
       </div>
     </div>
     <div className="row">

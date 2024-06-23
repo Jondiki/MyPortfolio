@@ -226,12 +226,13 @@ select {
 ================================================================ */
 .aside {
   width: 270px;
-  background-color: #fdf9ff;
+  background-color: #ffffff;
   position: fixed;
   height: 100%;
   left: 0;
   top: 0;
   z-index: 11;
+  color: #e9e9e9;
   border-right: 1px solid #e8dfec;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -1069,7 +1070,7 @@ select {
 [data-theme='dark'] .service .service-item .service-item-inner,
 [data-theme='dark'] .about .about-content .timeline,
 [data-theme='dark'] .aside {
-  background-color: #222222;
+  background-color: #1d2033fd;
 }
 
 [data-theme='dark'] .contact .contact-info-item h4,

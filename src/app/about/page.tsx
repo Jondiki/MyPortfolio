@@ -15,15 +15,28 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    I am Jonathan Diki{" "}
+                    <span>
+                      {" "}
+                      <br />
+                    </span>
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                    Bonjour et bienvenue sur mon portfolio ! Je suis Jonathan
+                    Diki, un développeur web basé à Paris avec une passion
+                    débordante pour les nouvelles technologies. Depuis mon plus
+                    jeune âge, j'ai toujours été fasciné par la manière dont la
+                    technologie peut transformer notre monde et améliorer notre
+                    quotidien
+                    <br />
+                    <br />
+                    Je suis actuellement étudiant en 3eme Developpeur Full-Stack
+                    à EPSI-Paris, où je me spécialise en développement web et en
+                    programmation. Mon expertise principale se concentre sur les
+                    frameworks modernes tels que React Js et Angular, avec une
+                    solide connaissance en HTML, CSS et JavaScript. J'ai
+                    également acquis des compétences en backend avec Node.js et
+                    en gestion de bases de données avec MongoDB.
                   </p>
                 </div>
               </div>
@@ -37,7 +50,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>dikijonathan@gmail.com</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -47,12 +60,12 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+33 751040116</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
+                        City : <span>Ile-de-France, France</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -64,7 +77,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="buttons padd-15">
                       <a
-                        href="/assets/docs/resume.pdf"
+                        href="/public/docs/resume.pdf"
                         target="_target"
                         className="btn"
                       >
@@ -85,29 +98,29 @@ const About: NextPage = () => {
                     <div className="skill-item padd-15">
                       <h5>Html5</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
+                        <div className="progress-in" style={{ width: "85%" }} />
+                        <div className="skill-percent">85%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Css3</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
+                        <div className="progress-in" style={{ width: "80%" }} />
+                        <div className="skill-percent">80%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Javascript & Typescript</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "55%" }} />
                         <div className="skill-percent">60%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
+                      <h5>React JS</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "50%" }} />
                         <div className="skill-percent">50%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
                       </div>
                     </div>
                   </div>
@@ -123,16 +136,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" />
+                            2024
                           </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
+                            Bachelor Développeur Full-stack/Devops
                           </h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
-                          </p>
+                          <p className="timeline-text">EPSI (2024 - 2025)</p>
                         </div>
                         {/* Timeline Item end */}
                         {/* Timeline Item */}
@@ -142,12 +152,10 @@ const About: NextPage = () => {
                             <i className="fa fa-calendar" /> 2019 to Present
                           </h6>
                           <h4 className="timeline-title">
-                            Diploma in Civil Engineering
+                            Licence 2 Mathématique-Informatique
                           </h4>
                           <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
+                            Aix-Marseille Université (Licence)
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -155,16 +163,12 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
+                            <i className="fa fa-calendar" /> 2013
                           </h6>
                           <h4 className="timeline-title">
-                            Secondary School Certificate
+                            Baccalauréat S ( Scientifique )
                           </h4>
-                          <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
-                          </p>
+                          <p className="timeline-text">Lycée Gianelli - 2013</p>
                         </div>
                         {/* Timeline Item end */}
                       </div>
@@ -177,46 +181,49 @@ const About: NextPage = () => {
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
                         {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
-                          </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
-                          <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
-                          </p>
-                        </div>
                         {/* Timeline Item end */}
                         {/* Timeline Item */}
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> Janv 2022 - Fév 2022
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">Stage Developpeur Angular</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
+                            Au sein de 3kles Consulting, j'ai été impliqué dans
+                            divers projets passionnants qui m'ont permis de
+                            mettre en pratique et de perfectionner mes
+                            compétences en développement front-end.
+                            Notament: Le Développement de composants dynamiques, Création et
+                            maintenance de composants réutilisables en Angular
                           </p>
                         </div>
                         {/* Timeline Item end */}
                         {/* Timeline Item */}
-                        <div className="timeline-item">
+                        {/* <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
                             <i className="fa fa-calendar" /> 2020 to Present
                           </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
+                          <h4 className="timeline-title">Agent Expert Logistique</h4>
                           <p className="timeline-text">
                             Since 2020 I started to learn Wordpress. I can
                             install, Customize, &amp; fix bug on wordpress.{" "}
                           </p>
-                        </div>
+                        </div> */}
                         {/* Timeline Item end */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2017 to Present
+                          </h6>
+                          <h4 className="timeline-title">Graphics Design</h4>
+                          <p className="timeline-text">
+                            Depuis 2017, j'ai travaillé en tant que graphiste.
+                            Les logiciels que je maitrise pour le design
+                            graphique sont Photoshop et Illustrator.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
