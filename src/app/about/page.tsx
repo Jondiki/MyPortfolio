@@ -52,11 +52,7 @@ const About: NextPage = () => {
                         Email : <span>dikijonathan@gmail.com</span>
                       </p>
                     </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Degree : <span>SSC</span>
-                      </p>
-                    </div>
+
                     <div className="info-item padd-15">
                       <p>
                         Phone : <span>+33 751040116</span>
