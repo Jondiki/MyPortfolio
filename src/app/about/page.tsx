@@ -15,28 +15,27 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Jonathan Diki{" "}
+                 
                     <span>
                       {" "}
                       <br />
                     </span>
                   </h2>
                   <p>
-                    Bonjour et bienvenue sur mon portfolio ! Je suis Jonathan
-                    Diki, un développeur web basé à Paris avec une passion
+                    Salut! Je suis Jonathan Diki, un développeur web basé à Paris avec une passion
                     débordante pour les nouvelles technologies. Depuis mon plus
                     jeune âge, jai toujours été fasciné par la manière dont la
                     technologie peut transformer notre monde et améliorer notre
                     quotidien
                     <br />
                     <br />
-                    Je suis actuellement étudiant en 3eme Developpeur Full-Stack
+                    Je suis actuellement étudiant en 3eme Bachelor Developpeur Full-Stack
                     à EPSI-Paris, où je me spécialise en développement web et en
                     programmation. Mon expertise principale se concentre sur les
                     frameworks modernes tels que React Js et Angular, avec une
                     solide connaissance en HTML, CSS et JavaScript. Jai
                     également acquis des compétences en backend avec Node.js et
-                    en gestion de bases de données avec MongoDB.
+                    en gestion de bases de données avec Sql et MongoDB.
                   </p>
                 </div>
               </div>
