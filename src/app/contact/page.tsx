@@ -26,7 +26,7 @@ const Contact: NextPage = () => {
                 <i className="fa fa-phone" />
               </div>
               <h4>Call me On</h4>
-              <p>+33 7 51 04 0116</p>
+              <p>777</p>
             </div>
             {/* contact-info-item Ended */}
             {/* contact-info-item */}
@@ -35,7 +35,7 @@ const Contact: NextPage = () => {
                 <i className="fa fa-envelope" />
               </div>
               <h4>Email</h4>
-              <p>dikijonathan@gmail.com</p>
+              <p></p>
             </div>
             {/* contact-info-item Ended */}
           </div>
