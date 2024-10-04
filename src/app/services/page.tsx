@@ -1,9 +1,9 @@
-import type { NextPage } from "next";
+//import type { NextPage } from "next";
 
-const Service: NextPage = () => {
-  return (
+// const Service: NextPage = () => {
+//   return (
    
-  );
-};
+//   );
+// };
 
-export default Service;
+// export default Service;
