@@ -25,7 +25,7 @@ const Contact: NextPage = () => {
               <div className="icon">
                 <i className="fa fa-phone" />
               </div>
-              <h4>Call me On</h4>
+              <h4>Call me on</h4>
               <p>777</p>
             </div>
             {/* contact-info-item Ended */}
@@ -34,7 +34,7 @@ const Contact: NextPage = () => {
               <div className="icon">
                 <i className="fa fa-envelope" />
               </div>
-              <h4>Email</h4>
+              <h4>E-mail</h4>
               <p></p>
             </div>
             {/* contact-info-item Ended */}
